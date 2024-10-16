@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="de">
+
+
+<!-- Mirrored from cloudworx.agency/docs/cloudworx-gantt by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Oct 2024 16:46:23 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>cloudworx.gantt | cloudworx</title>
+    <meta name="description" content="Wir von cloudworx sind Salesforce Partner und spezialisiert auf Prozessoptimierung und -automation kleiner und mittelständischer Unternehmen.">
+    <meta name="robots" content="index">
+    <link rel="canonical" content="cloudworx-gantt.html">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="../assets/favicon/manifest.json">
+<link rel="mask-icon" href="../assets/favicon/safari-pinned-tab.svg" color="#2c60ab">
+<link rel="shortcut icon" href="../assets/favicon/favicon.ico">
+<meta name="msapplication-config" content="../assets/favicon/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">    <link href="../assets/css/app.css" rel="stylesheet">    <script src="../assets/js/app.js" data-cookieconsent="ignore"></script>
+
+            <!-- Google Tag Manager -->
+        <script data-cookieconsent="ignore">
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            '../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-WJPX2S5');
+        </script>
+        <!-- End Google Tag Manager -->
+        <!-- Begin Matomo -->
+        <script data-cookieconsent="ignore">
+            var _paq = window._paq = window._paq || [];
+            _paq.push(['requireCookieConsent']);
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function() {
+                var u="https://matomo.cloudworx.agency/";
+                _paq.push(['setTrackerUrl', u+'matomo.php']);
+                _paq.push(['setSiteId', '1']);
+                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+            })();
+            document.addEventListener('click', function(e) {
+                if (e.currentTarget.href) {
+                    window._paq.push(['trackEvent', 'Links', 'Click', e.currentTarget.href]);
+                }
+            });
+        </script>
+        <!-- End Matomo -->
+    
+</head>
+
+<body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJPX2S5"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+<main>
+	<nav class="doc-nav color">
+        <a class="logo" href="../index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 119"><g class="logo-primcolor"><polygon points="579.26 84.2 598.86 59.82 576.41 59.82 567.92 70.37 579.26 84.2"/><polygon points="287.75 14.03 287.75 27.56 307.68 31.23 307.68 0 287.75 14.03"/><polygon points="63.29 17.2 63.29 3.66 83.22 0 83.22 31.23 63.29 17.2"/></g><g class="logo-seccolor"><path d="M287.75,32.15V67.82q-6-9.66-19.18-9.62t-20.9,8.1q-7.57,7.8-7.58,21.63,0,13.56,7.91,22,7.92,8.26,21.9,8.27,12.35,0,17.85-9v7.47h19.93V35.81ZM284,98.06q-3.67,3.81-10,3.81a14.48,14.48,0,0,1-10.24-3.81Q260,94.58,260,87.93q0-6.48,3.77-10t10.06-3.49q6.39,0,10.15,3.65t3.76,9.8q0,6.48-3.76,10.13"/><path d="M90.42,101.69a5.06,5.06,0,0,1-1.76.18c-2.28,0-3.72-.46-4.3-1.39q-1.14-1.55-1.14-5.27V36.74l-19.93-14v74q0,10.62,3.93,16.15Q71,118.2,81.11,118.2c4.68,0,8.22-.46,10.62-1.36Z"/><path d="M0,88.22Q0,74.33,8.88,66.33q9.06-8.09,23.6-8.18,14.93,0,22.82,8.95l-10.53,11A17.68,17.68,0,0,0,34,74.48q-6.67,0-10.44,3.91-3.6,3.58-3.6,9.66A13.68,13.68,0,0,0,23.7,98a13.38,13.38,0,0,0,10.1,3.91q5.18,0,11.15-3.58l10.18,10.92q-8.61,9-23,9T8.88,110Q0,101.71,0,88.22"/><path d="M94.72,88q0-12.95,8.59-21.42t25.34-8.47q16.54,0,25.19,8.47T162.49,88q0,13-8.65,21.38-8.82,8.77-25.19,8.78t-25.34-8.78Q94.72,101,94.72,88m19.93,0a19.15,19.15,0,0,0,3.76,12.07,13.11,13.11,0,0,0,20.39,0A19.15,19.15,0,0,0,142.56,88q0-7.29-3.76-11.85a13.5,13.5,0,0,0-20.39,0q-3.76,4.56-3.76,11.85"/><path d="M169.69,90.54V59.82h19.92V89.43q0,6.27,3.19,9.35a11.33,11.33,0,0,0,8.22,3.09,11.59,11.59,0,0,0,8.27-3.05q3.06-3,3.06-9.39V59.82h19.93v56.8H212.35v-7.08q-5.5,8.65-16.18,8.66-13.42,0-19.91-7.11-6.57-7.38-6.57-20.55"/><polygon points="311.46 59.82 331.38 59.82 345.9 86.88 361.13 58.15 377.49 86.96 390.99 59.82 410.92 59.82 379.31 118.2 361.44 87.65 344.73 118.2 311.46 59.82"/><path d="M408.54,88q0-12.95,8.6-21.42t25.33-8.47q16.56,0,25.2,8.47T476.31,88q0,13-8.64,21.38-8.84,8.77-25.2,8.78t-25.33-8.78Q408.55,101,408.54,88m19.93,0a19.15,19.15,0,0,0,3.76,12.07,13.11,13.11,0,0,0,20.39,0A19.15,19.15,0,0,0,456.39,88q0-7.29-3.77-11.85a13.5,13.5,0,0,0-20.39,0q-3.76,4.56-3.76,11.85"/><path d="M483.86,116.62V59.82h19.93V68q5.18-9.73,16.33-9.83A21.2,21.2,0,0,1,530.56,61l-7.37,14.76a22.9,22.9,0,0,0-7.37-1.27q-12,0-12,12.91v29.23Z"/><polygon points="576.37 87.79 565.04 73.96 553.45 59.82 531.79 59.82 554.31 87.3 530.74 116.62 553.19 116.62 565.64 101.13 578.34 116.62 600 116.62 576.37 87.79 576.37 87.79"/></g></svg>        </a>
+        <br>
+		<h4><b><p>cloudworx.gantt</p></b></h4>
+		<div onclick="$('.doc-nav').removeClass('doc-nav--opened');">
+			<ul>
+	<li>
+        <span>1.</span> 		<a href="#docs/cloudworx-gantt/was-kann-cloudworx-gantt" data-index="docs/cloudworx-gantt/was-kann-cloudworx-gantt">Was kann cloudworx.gantt?</a>
+			</li>
+	<li>
+        <span>2.</span> 		<a href="#docs/cloudworx-gantt/voraussetzungen" data-index="docs/cloudworx-gantt/voraussetzungen">Voraussetzungen</a>
+			</li>
+	<li>
+        <span>3.</span> 		<a href="#docs/cloudworx-gantt/installation-und-setup" data-index="docs/cloudworx-gantt/installation-und-setup">Installation und Setup</a>
+			</li>
+	<li>
+        <span>4.</span> 		<a href="#docs/cloudworx-gantt/erstellung-eines-gantt-diagramms" data-index="docs/cloudworx-gantt/erstellung-eines-gantt-diagramms">Erstellung eines GANTT-Diagramms</a>
+		<ul>
+	<li>
+        <span>4.1.</span> 		<a href="#docs/cloudworx-gantt/erstellung-eines-gantt-diagramms/erstellung-des-gantt-diagramms-ueber-den-lightning-anwendungsgenerator" data-index="docs/cloudworx-gantt/erstellung-eines-gantt-diagramms/erstellung-des-gantt-diagramms-ueber-den-lightning-anwendungsgenerator">Erstellung des GANTT-Diagramms über den Lightning-Anwendungsgenerator</a>
+		<ul>
+	<li>
+        <span>4.1.1.</span> 		<a href="#docs/cloudworx-gantt/erstellung-eines-gantt-diagramms/erstellung-des-gantt-diagramms-ueber-den-lightning-anwendungsgenerator/erstellung-einer-neuen-lightning-seite" data-index="docs/cloudworx-gantt/erstellung-eines-gantt-diagramms/erstellung-des-gantt-diagramms-ueber-den-lightning-anwendungsgenerator/erstellung-einer-neuen-lightning-seite">Erstellung einer neuen Lightning-Seite</a>
+			</li>
+</ul>	</li>
+</ul>	</li>
+	<li>
+        <span>5.</span> 		<a href="#docs/cloudworx-gantt/erstellen-und-verwenden-eines-verknuepfungsobjekts" data-index="docs/cloudworx-gantt/erstellen-und-verwenden-eines-verknuepfungsobjekts">Erstellen und Verwenden eines Verknüpfungsobjekts</a>
+		<ul>
+	<li>
+        <span>5.1.</span> 		<a href="#docs/cloudworx-gantt/erstellen-und-verwenden-eines-verknuepfungsobjekts/erstellen-eins-verknuepfungsobjekts" data-index="docs/cloudworx-gantt/erstellen-und-verwenden-eines-verknuepfungsobjekts/erstellen-eins-verknuepfungsobjekts">Erstellen eins Verknüpfungsobjekts</a>
+			</li>
+	<li>
+        <span>5.2.</span> 		<a href="#docs/cloudworx-gantt/erstellen-und-verwenden-eines-verknuepfungsobjekts/referenzieren-des-verknuepfungsdatensatzes-im-lightning-anwendungsgenerator" data-index="docs/cloudworx-gantt/erstellen-und-verwenden-eines-verknuepfungsobjekts/referenzieren-des-verknuepfungsdatensatzes-im-lightning-anwendungsgenerator">Referenzieren des Verknüpfungsdatensatzes im Lightning-Anwendungsgenerator</a>
+			</li>
+</ul>	</li>
+	<li>
+        <span>6.</span> 		<a href="#docs/cloudworx-gantt/bedienung-des-gantt-diagramms" data-index="docs/cloudworx-gantt/bedienung-des-gantt-diagramms">Bedienung des GANTT-Diagramms</a>
+			</li>
+	<li>
+        <span>7.</span> 		<a href="#docs/cloudworx-gantt/dynamisches-befuellen-von-gantt-diagramm" data-index="docs/cloudworx-gantt/dynamisches-befuellen-von-gantt-diagramm">Dynamisches Befüllen von GANTT Diagramm</a>
+		<ul>
+	<li>
+        <span>7.1.</span> 		<a href="#docs/cloudworx-gantt/dynamisches-befuellen-von-gantt-diagramm/anlegen-eines-buttons" data-index="docs/cloudworx-gantt/dynamisches-befuellen-von-gantt-diagramm/anlegen-eines-buttons">Anlegen eines Buttons</a>
+			</li>
+	<li>
+        <span>7.2.</span> 		<a href="#docs/cloudworx-gantt/dynamisches-befuellen-von-gantt-diagramm/liste-von-parametern-fuer-dynamisches-erstellen-von-diagramm" data-index="docs/cloudworx-gantt/dynamisches-befuellen-von-gantt-diagramm/liste-von-parametern-fuer-dynamisches-erstellen-von-diagramm">Liste von Parametern für dynamisches Erstellen von Diagramm</a>
+			</li>
+</ul>	</li>
+</ul>		</div>
+	</nav>
+	<div class="doc-nav-icon" onclick="$('.doc-nav').toggleClass('doc-nav--opened');"><i class="material-icons">close</i> <i class="material-icons">format_list_bulleted</i> <span>Index</span></div>
+    
+    <section class="fullpage fullpage--onepage light fullpage--autoheight">
+
+		<div class="doc">
+			
+        <a class="logo" href="../index.html">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 119"><g class="logo-primcolor"><polygon points="579.26 84.2 598.86 59.82 576.41 59.82 567.92 70.37 579.26 84.2"/><polygon points="287.75 14.03 287.75 27.56 307.68 31.23 307.68 0 287.75 14.03"/><polygon points="63.29 17.2 63.29 3.66 83.22 0 83.22 31.23 63.29 17.2"/></g><g class="logo-seccolor"><path d="M287.75,32.15V67.82q-6-9.66-19.18-9.62t-20.9,8.1q-7.57,7.8-7.58,21.63,0,13.56,7.91,22,7.92,8.26,21.9,8.27,12.35,0,17.85-9v7.47h19.93V35.81ZM284,98.06q-3.67,3.81-10,3.81a14.48,14.48,0,0,1-10.24-3.81Q260,94.58,260,87.93q0-6.48,3.77-10t10.06-3.49q6.39,0,10.15,3.65t3.76,9.8q0,6.48-3.76,10.13"/><path d="M90.42,101.69a5.06,5.06,0,0,1-1.76.18c-2.28,0-3.72-.46-4.3-1.39q-1.14-1.55-1.14-5.27V36.74l-19.93-14v74q0,10.62,3.93,16.15Q71,118.2,81.11,118.2c4.68,0,8.22-.46,10.62-1.36Z"/><path d="M0,88.22Q0,74.33,8.88,66.33q9.06-8.09,23.6-8.18,14.93,0,22.82,8.95l-10.53,11A17.68,17.68,0,0,0,34,74.48q-6.67,0-10.44,3.91-3.6,3.58-3.6,9.66A13.68,13.68,0,0,0,23.7,98a13.38,13.38,0,0,0,10.1,3.91q5.18,0,11.15-3.58l10.18,10.92q-8.61,9-23,9T8.88,110Q0,101.71,0,88.22"/><path d="M94.72,88q0-12.95,8.59-21.42t25.34-8.47q16.54,0,25.19,8.47T162.49,88q0,13-8.65,21.38-8.82,8.77-25.19,8.78t-25.34-8.78Q94.72,101,94.72,88m19.93,0a19.15,19.15,0,0,0,3.76,12.07,13.11,13.11,0,0,0,20.39,0A19.15,19.15,0,0,0,142.56,88q0-7.29-3.76-11.85a13.5,13.5,0,0,0-20.39,0q-3.76,4.56-3.76,11.85"/><path d="M169.69,90.54V59.82h19.92V89.43q0,6.27,3.19,9.35a11.33,11.33,0,0,0,8.22,3.09,11.59,11.59,0,0,0,8.27-3.05q3.06-3,3.06-9.39V59.82h19.93v56.8H212.35v-7.08q-5.5,8.65-16.18,8.66-13.42,0-19.91-7.11-6.57-7.38-6.57-20.55"/><polygon points="311.46 59.82 331.38 59.82 345.9 86.88 361.13 58.15 377.49 86.96 390.99 59.82 410.92 59.82 379.31 118.2 361.44 87.65 344.73 118.2 311.46 59.82"/><path d="M408.54,88q0-12.95,8.6-21.42t25.33-8.47q16.56,0,25.2,8.47T476.31,88q0,13-8.64,21.38-8.84,8.77-25.2,8.78t-25.33-8.78Q408.55,101,408.54,88m19.93,0a19.15,19.15,0,0,0,3.76,12.07,13.11,13.11,0,0,0,20.39,0A19.15,19.15,0,0,0,456.39,88q0-7.29-3.77-11.85a13.5,13.5,0,0,0-20.39,0q-3.76,4.56-3.76,11.85"/><path d="M483.86,116.62V59.82h19.93V68q5.18-9.73,16.33-9.83A21.2,21.2,0,0,1,530.56,61l-7.37,14.76a22.9,22.9,0,0,0-7.37-1.27q-12,0-12,12.91v29.23Z"/><polygon points="576.37 87.79 565.04 73.96 553.45 59.82 531.79 59.82 554.31 87.3 530.74 116.62 553.19 116.62 565.64 101.13 578.34 116.62 600 116.62 576.37 87.79 576.37 87.79"/></g></svg>        </a>
+
+					<section class="doc-content" id="docs/cloudworx-gantt/was-kann-cloudworx-gantt">
+				<div>
+					<div>
+	<h2>1. Was kann cloudworx.gantt?</h2><p>cloudworx.gantt ist eine Salesforce-native App, über die Prozessabläufe visualisiert und geplant werden können.</p><p>Saleforce-nativ heißt, dass die App vollständig in Salesforce läuft und keine externen Komponenten beinhaltet.</p><p>Weitere Features:</p><ul><li>GANTT-Diagramme können für nahezu alle Standardobjekte und alle Custom-Objekte erstellt werden</li><li>Einstellungen können komplett ohne Programmierkenntnisse vorgenommen werden</li><li>Der kritische Pfad eines Prozesses kann automatisch ermittelt werden</li><li>Vorgänge können in drei Ebenen übersichtlich gruppiert werden</li><li>Einstellungen können komplett ohne Programmierkenntnisse vorgenommen werden</li></ul><p></p></div>
+				</div>
+			</section>
+					<section class="doc-content" id="docs/cloudworx-gantt/voraussetzungen">
+				<div>
+					<div>
+	<h2>2. Voraussetzungen</h2><p>Für die Installation von cloudworx.compose benötigst du Salesforce in der Group, Professional, Enterprise, Performance, Unlimited oder Developer Edition. Außerdem muss dein Benutzer Administratorenrechte besitzen.</p></div>
+				</div>
+			</section>
+					<section class="doc-content" id="docs/cloudworx-gantt/installation-und-setup">
+				<div>
+					<div>
+	<h2>3. Installation und Setup</h2><p>Die Installation von cloudworx.</p><p>gantt erfolgt via AppExchange oder mittels eines von cloudworx bereitgestellten Links.</p><ol><li>Wenn du auf der Installations-Seite bist, wähle „Nur für Administratoren“.</li><li>Bei Installation die nicht über den App Exchange erfolgt: Bestätige, dass du eine App installierst, die dir von cloudworx direkt zur Verfügung gestellt wurde und die du nicht über den App Exchange bezogen hast</li><li>Gehe auf „Installieren“</li></ol><figure class="can-fullscreen">
+    <img src="../media/pages/docs/cloudworx-gantt/installation-und-setup/1b4f0c9b41-1714996491/2021-05-31-08-58-11-window-1200x.png" alt="">
+  
+    <span class="figure-close">X</span>
+</figure>
+<p>Sobald deine Installation abgeschlossen ist, findest du alle dem Package zugehörigen Komponenten in deiner Org. Du kannst sie an dem Namespace-Präfix „cwgt“ erkennen.</p><p><em>Vielleicht bekommst du eine Benachrichtigung mit folgendem Inhalt: „Die Installation dieser Anwendung nimmt einige Zeit in Anspruch.” Wenn es das erste Mal ist, dass so eine Meldung bei dir erscheint, keine Sorge. Klicke einfach auf „Fertig“.</em></p></div>
+				</div>
+			</section>
+					<section class="doc-content" id="docs/cloudworx-gantt/erstellung-eines-gantt-diagramms">
+				<div>
+					<div>
+	<h2>4. Erstellung eines GANTT-Diagramms</h2><p>Die Erstellung eines Diagramms wird am Besten anhand eines Beispiels deutlich. Für das Beispiel treffen wir folgende Annahmen:</p><hr />
+<p><strong>Beispiel:</strong></p><p>Unser Beispiel-Unternehmen kauft Immobilien. Nach Kauf wird die Immobilie renoviert. Für die Renovierung wird das GANTT-Diagramm genutzt.</p><p>In der Org gibt es, neben den Standard-Objekten der Sales Cloud noch Custom-Objekte mit folgenden Feldern:</p><p></p><p><strong>Custom-Objekt 'Maßnahme' (Api-Name: 'Action__c')</strong></p><p>Die Maßnahme legt fest, was getan werden muss. Beispielsweise ein Bestandsgebäude abreißen, damit dort neu gebaut werden kann. Die für das Beispiel relevanten Felder sind:</p><table>
+<thead>
+<tr>
+<th>Feldname</th>
+<th>Api-Name</th>
+<th>Typ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Opportunity</td>
+<td>Opportunity__c</td>
+<td>Master-Detail-Beziehung</td>
+</tr>
+</tbody>
+</table><p></p><p><strong>Custom-Objekt 'Bauphase' (Api-Name: 'Building_Phase__c')</strong></p><p>In der Bauphase wird, pro Maßnahme, festgelegt, wann genau welche Aktionen zu einer Maßnahme durchgeführt werden. Beispielsweise muss für die Maßnahme 'Abriss' vom 1.1.2021 bis 31.01.2021 der Verkehr gesperrt werden. Zwischen dem 15.01. und dem 25.01. wird das Haus abgerissen. Das wären dann zwei konkrete Bauphasen.</p><p>Folgende Felder sind für das Beispiel relevant:</p><table>
+<thead>
+<tr>
+<th>Feldname</th>
+<th>Api-Name</th>
+<th>Typ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Maßnahme</td>
+<td>Action__c</td>
+<td>Master-Detail-Beziehung</td>
+</tr>
+<tr>
+<td>Fortschritt</td>
+<td>Progress__c</td>
+<td>Prozent</td>
+</tr>
+<tr>
+<td>Ist-Anfang</td>
+<td>Real_Start__c</td>
+<td>Datum</td>
+</tr>
+<tr>
+<td>Ist-Ende</td>
+<td>Planned_End__c</td>
+<td>Datum</td>
+</tr>
+<tr>
+<td>Soll-Anfang</td>
+<td>Real_Start__c</td>
+<td>Datum</td>
+</tr>
+<tr>
+<td>Ist-Ende</td>
+<td>Real_End__c</td>
+<td>Datum</td>
+</tr>
+<tr>
+<td>Aktiv</td>
+<td>Active__c</td>
+<td>Kontrollkästchen</td>
+</tr>
+<tr>
+<td>Deadline</td>
+<td>Deadline__c</td>
+<td>Datum</td>
+</tr>
+<tr>
+<td>Action Name</td>
+<td>Action_Name__c</td>
+<td>Formelfeld (Name der Maßnahme)</td>
+</tr>
+<tr>
+<td>Opportunity Name</td>
+<td>Opportuniy_Name__c</td>
+<td>Formelfeld (Name der Opportunity)</td>
+</tr>
+<tr>
+<td>Opportunity Id</td>
+<td>Opportunity_Id__c</td>
+<td>Formelfeld (ID der Opportunity)</td>
+</tr>
+</tbody>
+</table><p>Unterhalb der Opportunity gibt es also ein Objekt, dass Maßnahmen für die Renovierung abbildet. Zu jeder Maßnahme gibt es wiederum eine oder mehrere Bauphasen. Für diese Bauphasen wird sowohl der geplante Start- und Endtermin (Soll) und der tatsächliche Start- und Endtermin (Ist) angegeben. Zusätzlich kann für jede Bauphase ein Fortschritt in Prozent angegeben werden.</p><hr />
+</div>
+	<section class="doc-content" data-depth="1" id="docs/cloudworx-gantt/erstellung-eines-gantt-diagramms/erstellung-des-gantt-diagramms-ueber-den-lightning-anwendungsgenerator">
+		<div>
+			<div>
+	<h3>4.1. Erstellung des GANTT-Diagramms über den Lightning-Anwendungsgenerator</h3></div>
+	<section class="doc-content" data-depth="2" id="docs/cloudworx-gantt/erstellung-eines-gantt-diagramms/erstellung-des-gantt-diagramms-ueber-den-lightning-anwendungsgenerator/erstellung-einer-neuen-lightning-seite">
+		<div>
+			<div>
+	<h4>4.1.1. Erstellung einer neuen Lightning-Seite</h4><p>Im Light-Anwendungsgenerator kann über die Schaltfläche ‚neu‘ eine neue Lightning-Seite erstellt werden.</p><p>Hier den Punkt ‚Anwendungsseite‘ auswählen:</p><figure class="can-fullscreen">
+    <img src="../media/pages/docs/cloudworx-gantt/erstellung-eines-gantt-diagramms/erstellung-des-gantt-diagramms-ueber-den-lightn/erstellung-einer-neuen-lightning-seite/e46fbd03ff/2021-05-31-09-58-46-win" alt="">
+  
+    <span class="figure-close">X</span>
+</figure>
+<p>Anschließend muss ein Name für die Lightning-Seite angegeben werden. Wir nennen unsere Seite ‚Übersicht Maßnahmen (GANTT-Diagramm)‘.</p><p> </p><p>Formfaktor:</p><p>Der auszuwählende Formfaktor ist ‚Ein Bereich‘.</p><figure class="can-fullscreen">
+    <img src="../media/pages/docs/cloudworx-gantt/erstellung-eines-gantt-diagramms/erstellung-des-gantt-diagramms-ueber-den-lightn/erstellung-einer-neuen-lightning-seite/10c3288035/2021-05-31-10-01-20-win" alt="">
+  
+    <span class="figure-close">X</span>
+</figure>
+<p>Es öffnet sich folgende Ansicht:</p><figure class="can-fullscreen">
+    <img src="../media/pages/docs/cloudworx-gantt/erstellung-eines-gantt-diagramms/erstellung-des-gantt-diagramms-ueber-den-lightn/erstellung-einer-neuen-lightning-seite/98fd49ca1f/2021-05-31-10-01-44-win" alt="">
+  
+    <span class="figure-close">X</span>
+</figure>
+<p>In der linken Spalte mit dem Titel Komponenten werden ganz unten die Benutzerdefinierten (Verwalteten) Komponenten angezeigt. Hier wird nun die cloudworx.gantt-Komponente angezeigt.</p><p>Diese kann durch Drag and Drop in die große, mittlere Spalte („Komponente(n) hier hinzufügen“) gezogen werden:</p><figure class="can-fullscreen">
+    <img src="../media/pages/docs/cloudworx-gantt/erstellung-eines-gantt-diagramms/erstellung-des-gantt-diagramms-ueber-den-lightn/erstellung-einer-neuen-lightning-seite/749229b0b2/2021-05-31-10-05-11-win" alt="">
+  
+    <span class="figure-close">X</span>
+</figure>
+<p>Da noch keine Daten angegeben sind, wird in der mittleren Spalte noch nichts angezeigt. In der rechten Spalte können nun die Einstellungen vorgenommen werden. Hier werden bereits Beispiele angezeigt. Folgende Einstellungen können vorgenommen werden:</p><table>
+<thead>
+<tr>
+<th>Feldname</th>
+<th>Beschreibung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Object</td>
+<td>Auswahl des Objekts das visualisiert werden soll.</td>
+</tr>
+<tr>
+<td>Filter Statement</td>
+<td>Setzen von Filtern um nur bestimmte Datensätze des in dem Feld ‚Object‘ definierten Objekts angezeigt zu bekommen. Die Filter werden mit SOQL-Syntax erstellt.</td>
+</tr>
+<tr>
+<td>Text Field</td>
+<td>Einfügen des Api-Name des Felds der als Bezeichnung des jeweiligen Balkens im GANTT-Diagramm angezeigt werden soll.</td>
+</tr>
+<tr>
+<td>Start Date Field</td>
+<td>Feld das als Startdatum des Balkens im GANTT-Diagramms angezeigt werden soll. Dieses kann per Drag and Drop im Diagramm geändert werden.</td>
+</tr>
+<tr>
+<td>End Date Field</td>
+<td>Feld das als Enddatum des Balkens im GANTT-Diagramm angezeigt werden soll. Dieses kann per Drag and Drop im Diagramm geändert werden.</td>
+</tr>
+<tr>
+<td>Progress Field</td>
+<td>Feld (Prozentwert) das für die Anzeige des Fortschritts angezeigt werden soll. Dieses Feld kann im Diagramm per Drag and Drop angepasst werden.</td>
+</tr>
+<tr>
+<td>Planned Start Date Field</td>
+<td>Feld das das geplante Startdatum enthält.</td>
+</tr>
+<tr>
+<td>Planned End Date Field</td>
+<td>Feld das das geplante Enddatum enthält.</td>
+</tr>
+<tr>
+<td>Deadline Field</td>
+<td>Feld das das Deadline-Datum enthält.</td>
+</tr>
+<tr>
+<td>Group Level 1 Field</td>
+<td>Feld nach dem gruppiert werden soll (1. Ebene).</td>
+</tr>
+<tr>
+<td>Group Level 2 Field</td>
+<td>Feld nach dem gruppiert werden soll (2. Ebene).</td>
+</tr>
+<tr>
+<td>Group Level 3 Field</td>
+<td>Feld nach dem gruppiert werden soll (3. Ebene).</td>
+</tr>
+<tr>
+<td>Link Object Name</td>
+<td>Name des Objekts das eine Verbindung zwischen den einzelnen Datensätzen herstellt. Wird auch für den kritischen Pfad benötigt.</td>
+</tr>
+<tr>
+<td>Link Source Field</td>
+<td>Feld im Link Object das auf den vorherigen Datensatz des Hauptobjekts verweist.</td>
+</tr>
+<tr>
+<td>Link Target Field</td>
+<td>Feld im Link Object das auf den nachfolgenden Datensatz des Hauptsobjekts verweist.</td>
+</tr>
+<tr>
+<td>Show Menu</td>
+<td>Kontrollkästchen: Ist es deaktiviert, wird das Menü im GANTT-Diagramm nicht angezeigt</td>
+</tr>
+<tr>
+<td>Default Tree State</td>
+<td>Definiert, in welcher Ausprägung der Datensatzbaum im GANTT-Diagramm angezeigt wird: Full: Alle Informationen werden angezeigt, Name: Nur der Name des Datensatzes wird angezeigt None: Nur die GANTT-Balken werden angezeigt. Zwischen diesen Einstellungen kann im GANTT-Diagramm auch manuell durchgeschaltet werden.</td>
+</tr>
+<tr>
+<td>Start Collapsed</td>
+<td>Der Datensatzbaum wird bei Aufruf des GANTT-Diagramms komplett eingeklappt angezeigt.</td>
+</tr>
+<tr>
+<td>Show Critical Path</td>
+<td>Definiert, ob der kritische Pfad angezeigt werden soll.</td>
+</tr>
+<tr>
+<td>Dies ist nur relevant, wenn es ein Objekt gibt, das die einzelnen Datensätze verknüpft (Linked Object).</td>
+</tr>
+<tr>
+<td>Enable Critical Path</td>
+<td>Definiert ob der kritische Pfad aktiv ist.</td>
+</tr>
+<tr>
+<td>Dies ist nur relevant, wenn es ein Objekt gibt, das die einzelnen Datensätze verknüpft (Linked Object).</td>
+</tr>
+<tr>
+<td>Show Autoschedule</td>
+<td>Definiert ob ein Button angezeigt werden soll, der das Datum der einzelnen Datensätze bei Überlappungen automatisch verschiebt</td>
+</tr>
+<tr>
+<td>Enable Autoschedule</td>
+<td>Definiert ob Autoscheduling aktiviert ist.</td>
+</tr>
+<tr>
+<td>Read Only</td>
+<td>Definiert ob das GANTT-Diagramm bearbeitet werden kann oder nicht.</td>
+</tr>
+<tr>
+<td>Color</td>
+<td>Definiert die Grundfarbe des GANTT-Diagramms als Hexadezimalwert.</td>
+</tr>
+<tr>
+<td>Die Balken des Diagramms sind Schattierungen dieser Grundfarbe.</td>
+</tr>
+<tr>
+<td>Height</td>
+<td>Höhe des Diagramms in Pixeln</td>
+</tr>
+</tbody>
+</table><p>In unserem Beispiel haben wir folgende Werte eingetragen:</p><table>
+<thead>
+<tr>
+<th>Feldname</th>
+<th>Beschreibung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Object</td>
+<td>Objekt ‚Bauphase‘ ausgewählt. Für dieses Objekt wollen wir die Datensätze als Balken angezeigt bekommen.</td>
+</tr>
+<tr>
+<td>Filter Statement</td>
+<td>Folgenden Filter haben wir gesetzt um nur aktive Bauphasen im Diagramm anzuzeigen:</td>
+</tr>
+<tr>
+<td>Active__c = TRUE</td>
+</tr>
+<tr>
+<td>Text Field</td>
+<td>Hier geben wir den Api-Namen des Feldes an, der die Bezeichnung unseres Balkens sein soll: ‚Name‘</td>
+</tr>
+<tr>
+<td>Start Date Field</td>
+<td>Api-Name des Startdatums das in dem Diagramm per Drag-and-Drop anpassbar sein soll: Real_Start__c</td>
+</tr>
+<tr>
+<td>End Date Field</td>
+<td>Api-Name des Startdatums das in dem Diagramm per Drag-and-Drop anpassbar sein soll: Real_End__c</td>
+</tr>
+<tr>
+<td>Progress Field</td>
+<td>Api-Name: Progress__c</td>
+</tr>
+<tr>
+<td>Planned Start Date Field</td>
+<td>Api-Name: Planned_Start__c</td>
+</tr>
+<tr>
+<td>Planned End Date Field</td>
+<td>Ape Name: Planned_Start_Date__c</td>
+</tr>
+<tr>
+<td>Deadline Field</td>
+<td>Api-Name: Deadline__c</td>
+</tr>
+<tr>
+<td>Group Level 1 Field</td>
+<td>Auf oberster Ebene wollen wir nach der Opportunity gruppieren. Hier haben wir in dem Objekt ‚Bauphase‘ ein Formelfeld angelegt das den Namen der Opportunity enthält die über der Maßnahme angesiedelt ist: Opportunity_Name__c</td>
+</tr>
+<tr>
+<td>Group Level 2 Field</td>
+<td>Auf zweiter Ebene wollen wir alle Maßnahmen anzeigen, die unter der Opportunity und über den Bauphasen existieren. Dafür haben wir in dem Objekt ‚Bauphase‘ ein Formelfeld angelegt, dass den Namen der darüberliegenden Maßnahme enthält: Action_Name__c</td>
+</tr>
+<tr>
+<td>Group Level 3 Field</td>
+<td>In unserem Beispiel haben wir keine dritte Ebene und lassen das Feld dementsprechend leer.</td>
+</tr>
+<tr>
+<td>Link Object Name</td>
+<td>Noch haben wir kein Objekt mit dem wir die einzelnen Bauphasen verknüpfen. Deshalb lassen wir dieses Feld leer.</td>
+</tr>
+<tr>
+<td>Link Source Field</td>
+<td>Auch dieses Feld lassen wir leer.</td>
+</tr>
+<tr>
+<td>Link Target Field</td>
+<td>Auch dieses Feld lassen wir leer.</td>
+</tr>
+<tr>
+<td>Show Menu</td>
+<td>Da wir das Menü anzeigen wollen, lassen wir das Auswahlkästchen aktiv.</td>
+</tr>
+<tr>
+<td>Default Tree State</td>
+<td>Hier lassen wir auch den Standardwert ‚Full‘ weil wir alle Informationen im Baum angezeigt bekommen wollen.</td>
+</tr>
+<tr>
+<td>Start Collapsed</td>
+<td>Wir wollen alle Informationen sofort sehen, deswegen bleibt dieses Feld deaktiviert.</td>
+</tr>
+<tr>
+<td>Show Critical Path</td>
+<td>Da wir kein ‚Link Object‘ haben ist dieser Wert für das Beispiel irrelevant.</td>
+</tr>
+<tr>
+<td>Enable Critical Path</td>
+<td>Da wir kein ‚Link Object‘ haben ist dieser Wert für das Beispiel irrelevant.</td>
+</tr>
+<tr>
+<td>Show Autoschedule</td>
+<td>Da wir kein ‚Link Object‘ haben ist dieser Wert für das Beispiel irrelevant.</td>
+</tr>
+<tr>
+<td>Enable Autoschedule</td>
+<td>Da wir kein ‚Link Object‘ haben ist dieser Wert für das Beispiel irrelevant.</td>
+</tr>
+<tr>
+<td>Read Only</td>
+<td>Wir wollen das Diagramm bearbeiten können, deswegen bleibt dieses Auswahlkästchen deaktivert.</td>
+</tr>
+<tr>
+<td>Color</td>
+<td>Als Grundfarbe wählen wir die Farbe rot mit dem Hex-Wert ‚ #ff0000‘ aus.</td>
+</tr>
+<tr>
+<td>Height</td>
+<td>Die Höhe des Diagramms belassen wir bei 800 Pixeln.</td>
+</tr>
+</tbody>
+</table><blockquote>
+  <strong>Hinweis:</strong><br>Unbedingt benötigt werden die folgenden Felder:<br><br>- Object<br>- Start Date<br>- End Date<br><br>Alle anderen Felder sind optional        </blockquote>
+<p></p><p>Bereits nach Anlegen der unbedingt benötigten Felder aktualisiert sich die Ansicht und das Gantt-Diagramm wird angezeigt, sofern man bereits entsprechende Daten im System hat. Man sieht also in Echtzeit, wie sich Änderungen die man vornimmt auswirken.</p><p>In unserem Beispiel sieht der Lightning-Anwendungsgenerator nun so aus:</p><figure class="can-fullscreen">
+    <img src="../media/pages/docs/cloudworx-gantt/erstellung-eines-gantt-diagramms/erstellung-des-gantt-diagramms-ueber-den-lightn/erstellung-einer-neuen-lightning-seite/41e73ae667/anwendungsgenerator-fer" alt="">
+  
+    <span class="figure-close">X</span>
+</figure>
+<p>Nach dem Speichern muss die Anwendung nun noch aktiviert werden. Sie kann hier beispielsweise einer Anwendungsseite (App) hinzugefügt werden.</p><p> </p><p>Die erstellte Anwendung kann über den Button zur Anwendungsauswahl aufgerufen werden. Dazu gibt man einfach in dem Suchfenster im App-Launcher (9-Punkte-Menü oben rechts) den Namen der Anwendung ein:</p><figure class="can-fullscreen">
+    <img src="../media/pages/docs/cloudworx-gantt/erstellung-eines-gantt-diagramms/erstellung-des-gantt-diagramms-ueber-den-lightn/erstellung-einer-neuen-lightning-seite/ca93a91216/auswahl-app-1200x.18f.d" alt="">
+  
+    <span class="figure-close">X</span>
+</figure>
+</div>
+		</div>
+	</section>
+		</div>
+	</section>
+				</div>
+			</section>
+					<section class="doc-content" id="docs/cloudworx-gantt/erstellen-und-verwenden-eines-verknuepfungsobjekts">
+				<div>
+					<div>
+	<h2>5. Erstellen und Verwenden eines Verknüpfungsobjekts</h2></div>
+	<section class="doc-content" data-depth="1" id="docs/cloudworx-gantt/erstellen-und-verwenden-eines-verknuepfungsobjekts/erstellen-eins-verknuepfungsobjekts">
+		<div>
+			<div>
+	<h3>5.1. Erstellen eins Verknüpfungsobjekts</h3><p>Das Verknüpfungsobjekt enthält zwei Nachschlagebeziehungsfelder, die beide auf das gleiche Objekt verweisen.</p><p>In unserem Beispiel wollen wir die Datensätze des Objekts ‚Bauphase‘ miteinander verknüpfen. wir erstellen also ein Objekt mit dem Namen ‚Bauphasenabhängigkeit‘ (Api-Name: Building_Phase_Dependency__c) und erstellen dort die beiden Felder:</p><hr />
+<p><strong>Nachfolgende Bauphase (Api-Name: Following_Building_Phase__c)</strong></p><p>Bezug zu: Bauphase</p><p>Name der untergeordneten Beziehung: Preceeding_Building_Phases</p><p>Erforderlich: Aktiviert</p><p>Bezeichnung für Themenliste: Vorausgehende Bauphase</p><hr />
+<p><strong>Vorausgehende Bauphase (Api-Name: Preceeding_Building_Phase__c)</strong></p><p>Bezug zu: Bauphase</p><p>Name der untergeordneten Beziehung: Following_Building_Phases</p><p>Erforderlich: Aktiviert</p><p>Bezeichnung für Themenliste: Nachfolgende Bauphase</p><hr />
+<p>Wichtig für die Logische Anordnung im Layout ist, dass der Name der untergeordneten Beziehung und der Bezeichnung für die Themenliste jeweils die gegensätzlichen Bauphasen abbildet. Die Liste der über das Feld ‚Vorausgehenden Bauphase‘ verknüpften Bauphasen enthält die nachfolgenden Bauphasen und andersrum.</p><p>Im Bauphasendatensatz kann man dann auf einen Blick erkennen, welche Bauphasen vor und welche nach dieser Bauphase kommen:</p><figure class="can-fullscreen">
+    <img src="../media/pages/docs/cloudworx-gantt/erstellen-und-verwenden-eines-verknuepfungsobje/erstellen-eins-verknuepfungsobjekts/61a743b5b3-1714996491/diagramm-uebersicht-ohne-beschriftung-1200x.190" alt="">
+  
+    <span class="figure-close">X</span>
+</figure>
+</div>
+		</div>
+	</section>
+	<section class="doc-content" data-depth="1" id="docs/cloudworx-gantt/erstellen-und-verwenden-eines-verknuepfungsobjekts/referenzieren-des-verknuepfungsdatensatzes-im-lightning-anwendungsgenerator">
+		<div>
+			<div>
+	<h3>5.2. Referenzieren des Verknüpfungsdatensatzes im Lightning-Anwendungsgenerator</h3><p>Im Lightning-Anwendungsgenerator müssen wir das eben erstelle Objekt noch referenzieren. Die folgenden, rot umrandeten Felder sind für die Verknüpfung relevant:</p><figure class="can-fullscreen">
+    <img src="../media/pages/docs/cloudworx-gantt/erstellen-und-verwenden-eines-verknuepfungsobje/referenzieren-des-verknuepfungsdatensatzes-im-l/8b26418645-1714996491/abhaengigkeit-in-lightning-editor-um" alt="">
+  
+    <span class="figure-close">X</span>
+</figure>
+<table>
+<thead>
+<tr>
+<th>Feldname</th>
+<th>Beschreibung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Link Object Name</td>
+<td>Das Objekt das die Bauphasen verbindet: Bauphasenabhängigkeit</td>
+</tr>
+<tr>
+<td>Link Source Field</td>
+<td>Das Beziehungsfeld zur vorherigen Bauphase: Preceeding_Building_Phase__c</td>
+</tr>
+<tr>
+<td>Link Target Field</td>
+<td>Das Beziehungsfeld zur nachfolgenden Bauphase:</td>
+</tr>
+<tr>
+<td>Following_Buidling_Phase__c</td>
+</tr>
+<tr>
+<td>Show Critical Path</td>
+<td>Wenn aktiviert wird der Button zum an- und ausschalten des kritischen Pfades angezeigt</td>
+</tr>
+<tr>
+<td>Enable Critical Path</td>
+<td>Aktiviert den kritischen Pfad bei Öffnung des Diagramms</td>
+</tr>
+<tr>
+<td>Show Autoschedule</td>
+<td>Wenn aktiviert wird der Button zum an- und ausschalten der automatischen Terminierung angezeigt</td>
+</tr>
+<tr>
+<td>Enable Autoschedule</td>
+<td>Aktiviert die automatische Terminierung standardmäßig für dieses Diagramm.</td>
+</tr>
+<tr>
+<td>ACHTUNG: Die automatische Terminierung sollte mit Vorsicht angewendet werden, da hier automatisch Daten der Hauptdatensätze geändert werden könnten</td>
+</tr>
+</tbody>
+</table></div>
+		</div>
+	</section>
+				</div>
+			</section>
+					<section class="doc-content" id="docs/cloudworx-gantt/bedienung-des-gantt-diagramms">
+				<div>
+					<div>
+	<h2>6. Bedienung des GANTT-Diagramms</h2><p>Manche der hier dargestellten Bedienelemente können bei Erstellung des GANTT-Diagramms ausgeblendet werden oder sind nicht vorhanden, wenn nicht die nötigen Felder eingetragen wurden.</p><p>Folgende Bedienelemente gibt es in dem Diagramm:</p><figure class="can-fullscreen">
+    <img src="../media/pages/docs/cloudworx-gantt/bedienung-des-gantt-diagramms/e1bd35b49a-1714996491/diagramm-uebersicht-mit-beschriftung-1200x.png" alt="">
+  
+    <span class="figure-close">X</span>
+</figure>
+<p>(1) <strong>Menüansicht</strong></p><p>Über den Button kann zwischen den Menüansichten umgeschaltet werden:</p><ol><li>Volles Menü (Ansicht in Screenshot): alle Informationen werden angezeigt. Nimmt den meisten Platz ein.</li><li>Nur Bezeichnung: Es wird nur die Bezeichnungen der einzelnen Ebenen angezeigt</li><li>Es wird kein Menü angezeigt</li></ol><hr />
+<p>(2) <strong>Textfilter</strong></p><p>Über die Eingabe eines Textes kann das Diagramm gefiltert werden. Es werden dann nur Zeilen angezeigt in deren Namen die im Filter eingegebene Zeichenfolge enthalten ist.</p><hr />
+<p>(3) <strong>Änderungshistorie</strong></p><p>Über die Buttons können Änderungen die in der aktuellen Sitzung gemacht wurden Rückgängig gemacht werden und diese Rückgängigmachung wieder rückgängig gemacht werden.</p><hr />
+<p>(4) <strong>Ein- / Ausklappen</strong></p><p>Klappt ebenenweise die einzelnen Ebenen ein bzw. aus</p><hr />
+<p>(5) <strong>Kritischer Pfad</strong></p><p>Mit diesem Button lässt sich die Anzeige des kritischen Pfades an- bzw. ausschalten.</p><hr />
+<p>(6) <strong>Autoschedule (Automatisches Terminieren)</strong></p><p>Beim Verschieben eines Vorgangs werden alle nachfolgenden Vorgänge (die direkt oder indirekt mit dem Vorgang verknüpft sind) auch verschoben, wenn sie sich ansonsten überlappen würden.<br>Achtung: Je nach Anzahl der Vorgänge kann es bei Aktivierung dieser Funktion zu vielen Änderungen an Datensätzen kommen.</p><hr />
+<p>(7) <strong>Tabellenüberschriften</strong></p><p>Bei vollständig ausgeklapptem Menü sieht man alle Informationen des Diagramms:</p><p>Name: Der Name des Vorgangs oder der Ebene</p><p>Start Date: Der aktuelle (NICHT der geplante) Startzeitpunkt</p><p>End Date: Der aktuelle Endzeitpunkt</p><p>Duration: Die Dauer des Vorgangs in Tagen</p><p>Progress: Der Fortschritt in Prozent, falls in den Einstellungen ein Prozentfeld angegeben wurde.</p><p>Deadline: Das Datum der Deadline falls angegeben.</p><p> </p><p>Bitte beachten: Bei Klick auf die jeweilige Überschrift werden die Vorgänge anhand der Auswahl angeordnet. Bei erneutem Klick werden sie erneut, aber in umgekehrter Reihenfolge angeordnet.<br>So kann z. B. nach der Dauer aufsteigend oder absteigend sortiert werden.</p><p><br>Auf der rechten Seite wird der aktuelle ausgewählte Kalenderausschnitt angezeigt. In der oberen Zeile wird das Jahr angezeigt. Darunter wird das Jahr in kleinere Einheiten aufgespalten. Welche Einheit dies ist hängt davon ab, wie weit ins Detail man geht. <br><br></p><p>INFO: Um den Detailgrad des Kalenders zu erhöhen oder zu verkleinern, kann per halten der Steuerungstaste (Strg) und dem Drehen am Mausrad hinein- bzw. rausgezoomt werden.</p><p> </p><p>Auf kleinster Ebene werden die einzelnen Tage angezeigt (Wochentag, Tag, Monat). Die Wochenenden sind zur besseren Übersicht ausgegraut. Der aktuelle Tag ist dunkelgrau hinterlegt.</p><p> </p><p>Eine Ebene darüber werden die Kalenderwochen des aktuellen Jahres angezeigt.</p><p> </p><p>Wiederum einige Ebenen darüber werden nur noch die Monate angezeigt.</p><p> </p><p>Auf der obersten Ebene werden die Quartale angezeigt.</p><hr />
+<p>(8) und (9) <strong>Ebene 1 und 2</strong></p><p>Die oberste Ebene aggregiert die Daten der darunterliegenden Ebenen. Progress und Deadline werden hier nicht angezeigt.</p><p>Eine weitere Ebene ist möglich, ist hier im Beispiel aber nicht angelegt.</p><hr />
+<p>(10) <strong>Vorgangsebene</strong></p><p>Die Vorgangsebene zeigt den tatsächlichen Vorgang. <br>Bei Klick auf den Vorgang oder in die Zeile wird die Zeile gelb hervorgehoben. Bei Doppelklick auf die Zeile kann man zu dem jeweiligen Salesforce-Datensatz navigieren. Wird eine Deadline überschritten wird hier, neben dem Datum der Deadline ein roter Kreis mit weißem Ausrufezeichen angezeigt als Warnung.</p><hr />
+<p>(11) <strong>Vorgangsleiste</strong></p><p>Die Vorgangsleiste setzt sich aus verschiedenen Elementen zusammen. <br>Der dunklere Bereich zeigt den Zeitraum zwischen tatsächlichem Start- und Enddatum an. Er kann, sofern es sich um bearbeitbare Felder handelt und der Read-Only Mode nicht aktiviert ist, per Drag and Drop bearbeitet werden.</p><p><br>Der schmalere hellere Bereich untendrunter zeigt den Zeitraum zwischen geplantem Start- und Enddatum. Ist kein geplantes Datum eingetragen oder wurden hier keine Felder hinterlegt, wird dieser Bereich nicht angezeigt. er kann im Diagramm nicht angepasst werden.</p><p> </p><p>Mit dem nach oben zeigende Pfeil am vorderen Rand des Balkens kann der Fortschritt geändert werden, sofern ein Fortschrittsfeld definiert wurde und dieses bearbeitbar ist. Hier kann der Fortschritt per Drag and Drop pro Vorgang angepasst werden. Dieser Pfeil wird nur angezeigt, wenn der Vorgang ausgewählt wurde, d. h. gelb hinterlegt ist.<br><br></p><p>Der schwarze Strich zeigt das Deadline-Datum an. Er kann im Diagramm nicht verschoben werden. Wird die Deadline überschritten, wird hinter diesem Balken angezeigt, um wie viele Tage die Deadline überschritten wurde (Z. B. „Overdue: 2 days“)</p><p> </p><p>Die weißen Punkte vor und hinter dem Balken erscheinen nur, wenn der Vorgang ausgewählt wurde (einfacher Klick auf den roten Balken oder auf die Zeile im Menü) oder man mit der Maus über den Vorgang geht. Außerdem erscheinen sie nur, wenn es ein Verbindungsobjekt gibt.</p><p>Per Drag and Drop können die Punkte auf der rechten Seite mit den Punkten eines anderen Balkens auf der linken Seite verknüpft werden um so eine Abhängigkeit zwischen den beiden Vorgängen abzubilden. Hierdurch wird ein neuer Datensatz für des Verbindungsobjekts erstellt.</p><hr />
+<p>(12) <strong>Verbindungspfeil</strong></p><p>Der Verbindungspfeil zeigt die Abhängigkeit der einzelnen Vorgänge untereinander an. pro Pfeil existiert ein Datensatz des Verbindungsobjekts.</p><p>Zum Löschen der Verbindung (und damit auch des Datensatzes) muss doppelt auf den Pfeil geklickt werden und die Aktion bestätigt werden.</p><p>Ist die Option ‚kritischer Pfad‘ aktiv und gehört die Verbindung von zwei Vorgängen zum kritischen Pfad, wird der Pfeil rot eingefärbt.</p><hr />
+</div>
+				</div>
+			</section>
+					<section class="doc-content" id="docs/cloudworx-gantt/dynamisches-befuellen-von-gantt-diagramm">
+				<div>
+					<div>
+	<h2>7. Dynamisches Befüllen von GANTT Diagramm</h2><p>Alle Einstellungen, die man statisch im Lightning Anwendungsgenerator vorgenommen hat, kann man auch dynamisch über URL-Parameter vornehmen. Hierzu erstellt man zuerst ein GANTT-Diagramm über den Lightning Anwendungsgenerator und passt dann die Einstellungen über die URL-Parameter an.</p><p>URL-Parameter sind Informationen, die man beim Öffnen eines Diagramms (z. B. über einen Button) mitgibt und die den Inhalt des Diagramms beeinflussen.</p></div>
+	<section class="doc-content" data-depth="1" id="docs/cloudworx-gantt/dynamisches-befuellen-von-gantt-diagramm/anlegen-eines-buttons">
+		<div>
+			<div>
+	<h3>7.1. Anlegen eines Buttons</h3><p>Das GANTT-Diagramm kann man über den App Drawer anzeigen lassen. In diesem Fall werden die statischen Informationen zur Visualisierung genutzt, die man im Lightning Anwendungsgenerator eingetragen hat.</p><p>man kann das Diagramm aber auch über die von Salesforce zugewiesene URL öffnen und kann so dynamisch Inhalte und Verhalten beeinflussen.</p><p>Exemplarisch wird hier das Öffnen des Diagramms über einen Button gezeigt.</p><p> </p><hr />
+<p><strong>BEISPIEL:</strong></p><p>Bisher haben wir im Diagramm immer alle Projekte (Opportunities) mit darin enthaltenen Vorgängen betrachtet. Wir wollen aber nun nur die Vorgänge einer Opportunity betrachten.</p><p>dafür erstellen wir in der Opportunity einen Button und bestimmen, das über diesen Button nur die Vorgänge unterhalb der aktuellen Opportunity im Diagramm angezeigt werden sollen.</p><hr />
+<p> </p><p><strong>Erstellen eines Buttons:</strong></p><p>Der Button wird in der im Objekt-Manager im jeweiligen Objekt erstellt. Der Menüpunkt hierzu lautet „Schaltflächen, Links und Aktionen“:</p><figure class="can-fullscreen">
+    <img src="../media/pages/docs/cloudworx-gantt/dynamisches-befuellen-von-gantt-diagramm/anlegen-eines-buttons/0987477db9-1714996491/button-button-in-opportunity-1200x.png" alt="">
+  
+    <span class="figure-close">X</span>
+</figure>
+<p>Anschließend kann man rechts oben über den Button ‚Neue Schaltfläche / neuer Link' einen neuen Button erstellen.</p><p> </p><p>Hier wählt man nun eine Bezeichnung (wird im Layout für den User angezeigt) und einen Namen (technischer Name) aus. Außerdem bestimmt man den Anzeigetyp. In unserem Fall ‚Schaltfläche für Detailseite‘.</p><p>Als Inhaltsquelle geben wir ‚URL‘ an.</p><p>In dem großen Textfeld können wir nun unsere URL eintragen. Hier tragen wird zuerst die URL des GANTT-Diagramms ein, das wir bereits erstellt haben. In unserem Fall ist das folgende:</p><p> </p><p><em>https://gantt-demo-cloudworx-dev-ed.lightning.force.com/lightning/n/bersicht_Ma_nahmen_GANTT_Diagramm</em></p><p> </p><p>Anschließend können an diese URL die Parameter gehängt werden, die das Standard-Diagramm anpassen. Wir möchten in unserem Fall folgende Sachen erreichen:</p><p>1.      Nur die Bauphasen anzeigen, die zu der aktuellen Opportunity zugerechnet werden</p><p>2.      Die Farbe der Balken ändern</p><p> </p><p>Um die Bauphasen einer Opportunity zuordnen zu können, müssen wir die Opportunity eindeutig in der Bauphase identifizieren. In unserem Beispiel habe ich hierzu ein Formelfeld im Bauphasen-Objekt angelegt, dass die Opportunity Id enthält. Das Feld heißt dementsprechend ‚Opportunity_Id__c‘. In der URL wird nun über den Parameter ‚cwgt__filterStatement‘ geprüft, dass die Id im Feld Opportunity_Id__c in der Bauphase mit der Id der Opportunity übereinstimmt, in der der Button erstellt wurde:</p><p><em>cwgt__filterStatement= Opportunity_Id__c = '{!Opportunity__c.Id}' </em></p><blockquote>
+  (Wichtig: das Mergefeld für die Opportunity Id muss zwischen Anführungszeichen stehen)  </blockquote>
+<p> </p><p>Zusätzlich ändern wird noch die Farbe der Balken zu einem grün:</p><p><em>cwgt_color=0ffc03</em></p><p> </p><p>Die einzelnen Parameter müssen verbunden werden. Den ersten Parameter eröffnet man mit einem ‚?‘. Alle anderen durch ein ‚&amp;‘.</p><p>Die vollständige URL wie wir sie im Button eingegeben haben sieht dann so aus:</p><p><em>https://gantt-demo-cloudworx-dev-ed.lightning.force.com/lightning/n/bersicht_Ma_nahmen_GANTT_Diagramm?cwgt__filterStatement= Opportunity_Id__c = '{!Opportunity.Id}'&amp;cwgt__color=0ffc03</em></p><blockquote>
+  <strong>Bitte beachten:</strong><br>Nach Erstellen des Buttons muss dieser noch in das Seitenlayout übernommen werden, damit er angezeigt wird.  </blockquote>
+</div>
+		</div>
+	</section>
+	<section class="doc-content" data-depth="1" id="docs/cloudworx-gantt/dynamisches-befuellen-von-gantt-diagramm/liste-von-parametern-fuer-dynamisches-erstellen-von-diagramm">
+		<div>
+			<div>
+	<h3>7.2. Liste von Parametern für dynamisches Erstellen von Diagramm</h3><p>Folgende Parameter können genutzt werden um das GANTT-Diagramm anzupassen. Dabei werden die Angaben in den korrespondierenden Feldern im Lightning Anwendungsgenerator für dieses Diagramm temporär überschrieben.</p><p>Bei den Parametern die ein Feldname erwarten, muss der API-Name des Feldes eingetragen werden.</p><p>Bei Paramtern die ein Bool’schen Wert erwarten, muss ‚true‘ oder ‚false‘ eingetragen werden.</p><table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Beschreibung</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>cwgt__recordId</td>
+<td>ID des zu referenzierenden Datensatzes</td>
+</tr>
+<tr>
+<td>cwgt__objectName</td>
+<td>API-Name des Objekts, dessen Datensätze als Balken angezeigt werden sollen.</td>
+</tr>
+<tr>
+<td>cwgt__relationField</td>
+</tr>
+<tr>
+<td>cwgt__filterStatement</td>
+<td>Über das Filter Statement können die Datensätze aus dem Objekt (siehe objectName) eingegrenzt werden. Hier wird SOQL erwartet.</td>
+</tr>
+<tr>
+<td>cwgt__textField</td>
+<td>Der API-Name des Feldes das zur Identifizierung in den Balken steht.</td>
+</tr>
+<tr>
+<td>cwgt__startDateField</td>
+<td>API-Name des Feldes für den tatsächlichen Startzeitpunkt eines Vorgangs.</td>
+</tr>
+<tr>
+<td>cwgt__endDateField</td>
+<td>API-Name des Feldes für den tatsächlichen Endzeitpunkt eines Vorgangs.</td>
+</tr>
+<tr>
+<td>cwgt__progressField</td>
+<td>API-Name des Feldes das den Fortschritt (in Prozent) anzeigt.</td>
+</tr>
+<tr>
+<td>cwgt__plannedStartDateField</td>
+<td>API-Name des Feldes für den geplanten Startzeitpunkt eines Vorgangs.</td>
+</tr>
+<tr>
+<td>cwgt__plannedEndDateField</td>
+<td>API-Name des Feldes für den geplanten Endzeitpunkt eines Vorgangs.</td>
+</tr>
+<tr>
+<td>cwgt__deadlineField</td>
+<td>API-Name desDeadline-Feldes. Hier wird ein Datumsfeld erwartet.</td>
+</tr>
+<tr>
+<td>cwgt__groupLevel1Field</td>
+<td>Feld das die Vorgänge auf der obersten Ebene gruppiert.</td>
+</tr>
+<tr>
+<td>cwgt__groupLevel2Field</td>
+<td>Feld das die Vorgänge auf der 2. Ebene gruppiert.</td>
+</tr>
+<tr>
+<td>cwgt__groupLevel3Field</td>
+<td>Feld das die Vorgänge auf der 3. Ebene gruppiert.</td>
+</tr>
+<tr>
+<td>cwgt__linkObjectName</td>
+<td>Der API-Name des Objekts, das zur Verknüpfung der einzelnen Vorgänge genutzt wird.</td>
+</tr>
+<tr>
+<td>cwgt__linkSourceField</td>
+<td>Beziehungsfeld zwischen einem vorausgegangenen Vorgang und dem Verknüpfungsobjekt.</td>
+</tr>
+<tr>
+<td>cwgt__linkTargetField</td>
+<td>Beziehungsfeld zwischen einem nachfolgenden Vorgang und dem Verknüpfungsobjekt.</td>
+</tr>
+<tr>
+<td>cwgt__showFilter</td>
+<td>Bool'scher Wert. Wenn 'true', dann werden die Filtermöglichkeiten (Suchfeld und Button angezeigt.</td>
+</tr>
+<tr>
+<td>cwgt__defaultTreeState</td>
+<td>Der Vorgangsbaum kann durch diesen Parameter in verschiedenen Status angezeigt werden: full -&gt; Alle Informationen werden angezeigt, name -&gt; nur die Namen der Vorgänge und Ebenen werden angezeigt, none-&gt; der Vorgangsbaum wird nicht angezeigt. ACHTUNG: Kleinschreibung beachten.</td>
+</tr>
+<tr>
+<td>cwgt__showCollapsed</td>
+<td>Zeigt bei Aufruf des Diagramms nur die oberste Ebene des Verzeichnisbaums, wenn true.</td>
+</tr>
+<tr>
+<td>cwgt__showCriticalPath</td>
+<td>Zeigt den Button zum aktiveren und deaktivieren des kritischen Pfad wenn true.</td>
+</tr>
+<tr>
+<td>cwgt__enableCriticalPath</td>
+<td>Setzt den kritischen Pfad bei Aufruf des Diagramms auf aktiv, wenn true</td>
+</tr>
+<tr>
+<td>cwgt__showAutoschedule</td>
+<td>Zeigt den Button zu aktivieren und deaktivieren der automatischen Terminierung von Vorgängen, wenn true.</td>
+</tr>
+<tr>
+<td>cwgt__enableAutoschedule</td>
+<td>Aktiviert die automatische Terminierung bei Aufruf des Diagramms auf aktiv, wen ntrue.</td>
+</tr>
+<tr>
+<td>cwgt__readOnlyFlag</td>
+<td>Standard: ‚false‘. Wenn ‚true‘, dann können die Vorgänge nicht mehr verschoben werden oder Start- und Enddatum angepasst werden. Verbindungen zwischen Vorgängen (falls Verknüpfungsobjekt vorhanden ist) können weiterhin erstellt und auch gelöscht werden.</td>
+</tr>
+<tr>
+<td>Auto-Scheduling ist in diesem Fall nicht möglich.</td>
+</tr>
+<tr>
+<td>cwgt__color</td>
+<td>Ändert die Farbe. Hier wird ein Hexadezimalwert erwartet.</td>
+</tr>
+<tr>
+<td>cwgt__height</td>
+<td>Ändert die Höhe des gesamten Diagramms. Der Wert ist in Pixel anzugeben</td>
+</tr>
+</tbody>
+</table></div>
+		</div>
+	</section>
+				</div>
+			</section>
+		
+	        <center>
+	        	<br><br>
+	            <a href="../impressum.html">Impressum</a> | <a href="../datenschutz.html">Datenschutz</a><br><br>
+	        </center>
+
+		</div>
+
+	</section>
+
+</main>
+
+</body>
+
+
+<!-- Mirrored from cloudworx.agency/docs/cloudworx-gantt by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 16 Oct 2024 16:46:24 GMT -->
+</html>
